@@ -57,3 +57,9 @@ function checkcheckPassword() {
         resultDiv.innerHTML = '비밀번호가 일치하지 않습니다.';
     }
 }
+function selectAll(selectAll)  {
+    const checkboxes = document.querySelectorAll('#agree input[type="checkbox"]');
+    checkboxes.forEach((checkbox) => {
+    checkbox.checked = selectAll.checked;
+});
+}
