@@ -19,8 +19,8 @@
     회원정보를 입력해주세요
     <div id="put">
             <div>
-                <button><img src="https://png.pngtree.com/png-vector/20190508/ourmid/pngtree-email-vector-icon-png-image_1027071.jpg" class="image"></button>
-                <input type="text" placeholder="아이디(이메일)">
+                <button onclick="alert()"><img src="https://png.pngtree.com/png-vector/20190508/ourmid/pngtree-email-vector-icon-png-image_1027071.jpg" class="image"></button>
+                <input type="text" placeholder="아이디(이메일)" onclick="alert()">
             </div>
             <div>
                 <button><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6zDjAmMqgd_AJbigiumbj4BJM9D-zW-Vu5mZcXyQ7qA&s" class="image"></button>
@@ -39,106 +39,25 @@
                 <input type="text" placeholder="휴대폰 번호">
             </div>
     </div>
-    
-      <span id="overall"><input type="checkbox">모두 확인하였으며 동의합니다.</span>  
-    
+
+    <span id="overall"><input type="checkbox" onclick="selectAll(this)">모두 확인하였으며 동의합니다.</span>  
+
     <div id="detail">
         전체 동의에는 필수 및 선택 정보에 대한 동의가 포함되어 있으며, 개별적으로 동<br>
     의를 선택 하실 수 있습니다. 선택 항목에 대한 동의를 거부하시는 경우에도 서비<br>
     스 이용이 가능합니다.
     </div>
     <div id="agree">
-        <div class="modal">
-            <h2>쿠팡 이용약관 동의</h2>
-            <p>모달창 내용 </p>
-        <input type="checkbox">[필수] 만 14세 이상입니다.<br>
-        </div>
-        <div class="modal">
-            <div class="modalbody">
-            <h2>쿠팡 이용약관 동의</h2>
-            <p>
-                [ 쿠팡 이용 약관 ] <br>
-                제1장 총칙 <br>
-                제 1 조 (목적) <br>
-                이 약관은 쿠팡 주식회사(이하 “회사”)가 운영하는 사이버몰에서 제공하는 서비스와 이를 이용하는 회원의 권리·의무 및 책임사항을 규정함을 목적으로 합니다. <br>
-                제 2 조 (용어의 정의) <br>
-                이 약관에서 사용하는 용어의 정의는 다음과 같습니다. 그리고 여기에서 정의되지 않은 이 약관상의 용어의 의미는 일반적인 거래관행에 따릅니다.</p>
-            </div>
-        <input type="checkbox">[필수] 쿠팡 이용약관 동의<button class="modalbutton">></button><br> 
-        </div>
-        <div class="modal">
-            <div class="modalbody">
-            <h2>전자금융거래 이용약관 동의</h2>
-            <p>쿠팡페이㈜ 전자금융거래이용약관 <br>
-
-                제 1장. 총 칙 <br>
-                제1조(목적) <br>
-                본 약관은 쿠팡페이 주식회사(이하 "회사"라 합니다)가 제공하는 전자지급결제대행서비스 및 결제대금예치서비스, 선불전자지급수단 발행 및 관리 서비스(이하 통칭하여 “전자금융거래서비스”라 합니다)를 이용자가 이용함에 있어 회사와 이용자 사이의 전자금융거래에 관한 기본적인 사항을 정함을 목적으로 합니다. <br>
-                제2조 (용어의 정의) <br>
-                본 약관에서 정하는 용어의 정의는 다음과 같으며, 본 조 및 본 약관에서 별도로 정의하지 아니한 용어의 정의는 「전자금융거래법」 등 관련법령이 정한 바에 의합니다.</p>
-            </div>
-        <input type="checkbox">[필수] 전자금융거래 이용약관 동의 <button class="modalbutton">></button><br>
-        </div>
-        <div class="modal">
-            <div class="modalbody">
-            <h2>개인정보 수집 및 이용 동의</h2>
-            <p><table>
-                <thead>
-                    <tr>
-                        <th>항목</th>
-                        <th>목적</th>
-                        <th>보유 및 이용 기간</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>서울대학교</td>
-                        <td>1946</td>
-                    </tr>
-                    <tr>
-                        <td>고려대학교</td>
-                        <td>1905</td>
-                    </tr>
-                    <tr>
-                        <td>연세대학교</td>
-                        <td>1885</td>
-                    </tr>
-                </tbody>
-            </table></p>
-        <input type="checkbox">[필수] 개인정보 수집 및 이용 동의  <button class="modalbutton">></button><br>
-            </div>
-        </div>
-        <div class="modal">
-            <div>
-            <h2>쿠팡 이용약관 동의</h2>
-            <p>모달창 내용 </p>
-        <input type="checkbox">[필수] 개인정보 제3자 제공 동의<button class="modalbutton">></button><br>
-            </div>
-        </div> 
-        <div class="modal">
-            <div class="modalbody">
-            <h2>쿠팡 이용약관 동의</h2>
-            <p>모달창 내용 </p>
-        <input type="checkbox">[선택] 마케팅 목적의 개인정보 수집 및 이용 동의<button class="modalbutton">></button><br> 
-            </div>
-        </div>
-        <div class="modal">
-            <div class="modalbody">
-                <h2>광고성 정보 수신 동의</h2>
-                <p>[선택] 광고성 정보 수신 동의 <br>
-                    쿠팡은 회원님이 수집 및 이용에 동의한 개인정보를 이용하여 SMS(MMS), SNS 메시지, 이메일, 푸시 알림 등 다양한 전자적 전송 매체를 통해 오전 8시부터 오후 9시까지 개인 맞춤형 광고 및 정보를 전송할 수 있습니다. <br>
-                    본 동의는 거부하실 수 있으나, 거부 시 이벤트 및 프로모션 안내, 유용한 광고를 받아보실 수 없습니다. <br>
-                    광고성정보수신의 변경은 <br>
-                    1) 쿠팡 고객센터(1577-7011, help@coupang.com)로 요청하거나 <br>
-                    2) SMS, 이메일: 웹 브라우저에서 쿠팡에 로그인 > 마이쿠팡 > MY정보(개인정보확인/수정) > 수신설정 <br>
-                    3) SNS: 각 SNS의 설정 내 수신 차단 메뉴 <br>
-                    4) 푸시알림: 쿠팡 앱 로그인> 마이쿠팡> 이름 선택(내정보관리) > 푸시 설정에서 언제든지 변경할 수 있습니다.</p>
-        <input type="checkbox">[선택] 광고성 정보 수신 동의  <button class="modalbutton">></button><br>
-            </div>
-        </div>
-        &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox">[선택] 이메일 수신 동의 <button class="modalbutton">></button> <br> 
-        &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox">[선택] SMS, SNS 수신 동의 <button class="modalbutton">></button><br> 
-        &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox">[선택] 앱 푸시 수신 동의 <button class="modalbutton">></button>
+        <input type="checkbox">[필수] 만 14세 이상입니다. <br>
+        <input type="checkbox">[필수] 쿠팡 이용약관 동의 <br>
+        <input type="checkbox">[필수] 전자금융거래 이용약관 동의 <br>
+        <input type="checkbox">[필수] 개인정보 수집 및 이용 동의 <br>
+        <input type="checkbox">[필수] 개인정보 제3자 제공 동의 <br>
+        <input type="checkbox">[선택] 마케팅 목적의 개인정보 수집 및 이용 동의 <br>
+        <span id="overall"><input type="checkbox" onclick="selectAll(this)">[선택] 광고성 정보 수신 동의</span>  
+        &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox">[선택] 이메일 수신 동의 <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox">[선택] SMS, SNS 수신 동의  <br> 
+        &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox">[선택] 앱 푸시 수신 동의 
     </div>
     <button id="end">동의하고 가입하기</button>
     <p id="special">
@@ -147,5 +66,6 @@
         <a href="https://pages.coupang.com/p/92079">쿠팡비즈 간편가입></a>
     </p>
     <footer>©Coupang Corp. All rights reserved.</footer>
+    <script src="app.js"></script>
 </body>
 </html>
