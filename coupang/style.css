@@ -1,0 +1,89 @@
+#coupang { 
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 50px; 
+    letter-spacing: -8px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.coupang-letter {
+    color: brown;
+}
+.coupang-letter1 {
+    color: red;
+}
+.coupang-letter2 {
+    color: rgb(246, 246, 72);
+}
+.coupang-letter3 {
+    color: rgb(70, 205, 70);
+}
+.coupang-letter4 {
+    color: rgb(69, 161, 171);
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+#put {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: left;
+    font-weight: lighter;
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+#agree {
+    width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px solid rgb(181, 163, 163);
+    text-align: left;
+    font-weight: lighter;
+}
+
+#detail{
+    font-weight: lighter;
+    font-size: smaller;
+}
+input[type="checkbox"] {
+    margin-bottom: 10px; 
+    width: 15px;
+    height: 15px;
+}
+#end{
+    color: white;
+    background-color: rgb(56, 56, 240);
+    width: 425px;
+    height: 50px;
+    font-size: larger;
+    font-weight: bolder;
+}
+#special{
+    font-size: small;
+    font-weight: lighter;
+}
+a {
+    font-weight: bold;
+    color: black;
+    font-size: medium;
+    text-decoration: none;
+}
+#overall
+{
+    font-weight: bolder;
+}
+.image{
+    width: 20px; 
+    height: 20px; 
+}
