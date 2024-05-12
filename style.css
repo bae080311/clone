@@ -35,6 +35,8 @@ body {
     padding: 20px;
     text-align: center;
     font-weight: lighter;
+    display: flex;
+    flex-direction: column;
 }
 
 input[type="text"], input[type="password"] {
@@ -93,7 +95,7 @@ a {
 .container{
     position: relative;
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 3px;
 }
 .containerbutton{
     
